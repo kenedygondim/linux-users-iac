@@ -1,7 +1,10 @@
+mkdir /publico
+cd /publico
+mkdir adm ven sec
+
 groupadd GRP_ADM
 groupadd GRP_VEN
 groupadd GRP_SEC
-
 
 chgrp GRP_ADM adm
 chgrp GRP_VEN ven
